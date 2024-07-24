@@ -42,5 +42,13 @@ puts ""
 nome = "Sebastião, vamos rumo ao sucesso!"
 print nome.split(" ")
 
+#Escrever ao contrário
+nome = "Sebastião"
+puts nome.reverse
+
+#Primeira letra maiuscula
+nome = "sebastião"
+puts nome.capitalize
+
 
 
