@@ -1,25 +1,18 @@
-#Array
-lista = [15, "João", "doce", 10.00]
-puts lista
+#Criando um array vazio
+livros = []
 
-puts
+# Colocando valores no array
+livros.push("Dom Casmurro", "Vidas Secas")
 
-puts "#" * 100
+# Organizando os dados na lista
+livros.insert(0, "Iracema", "Dom Quixote", "Gabriela")
 
-#adicionar um novo item
-item = [25, "Paulo"]
-p item << "Leão" # utilizando o símbolo <<
-p item.append 24.6 # utilizando o método append
-p item.push "Macaco" # utilizando o método push
+# Acessando os dados no array
+puts livros[1] # irá acessar o livro Dom Quixote
+puts livros.first # acessa o primeiro livro da lista
+puts livros.last # acessa o último livro
+puts livros.length # mostra o tamanho do array
+puts livros.empty? # descobre se o array está vazio
+#puts livros.delete_at(0) # exclui o valor selecionado
+#puts livros.pop # exclui o último valor
 
-puts
-
-puts "#" * 100
-
-#Metodos do array
-
-metodo = ["Lucas", 10.8, "Feijão", "cachorro"]
-puts metodo.length # tamanho do array
-puts metodo.empty? # verifica se o array está vazio
-puts metodo.first # pega o primeiro valor
-puts metodo.last # pega o último valor

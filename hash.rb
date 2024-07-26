@@ -1,11 +1,29 @@
 # Criando um Hash em Ruby
-person = Hash.new
+animais = Hash.new
 
-person[:nome] = "Sebastiao"
-person[:idade] = 45
-person[:data_nascimento] = "12/11/1979"
+# Inserindo chaves e valores no hash
+animais = {ave: "Tucano", mamifero: "Cachorro", reptil: "Cobra"}
 
-p person.keys # retorna um array com chaves
-p person.values # retorna um array com os valores
-p person.empty? # verifica e o hash está vazio
+# adicionando um novo item
+animais[:insetos] = "Barata"
+
+# retornar todas as chaves de um hash
+animais.keys
+
+# retornar todas os valores de um hash
+animais.values
+
+# deleta uma chave do hash
+animais.delete(:insetos)
+
+# Mostra o tamanho do hash
+animais.size
+
+# Verifica se o hash está vazio
+animais.empty?
+print animais
+
+
+
+
 
