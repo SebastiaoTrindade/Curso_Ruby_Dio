@@ -9,6 +9,7 @@ livros.insert(0, "Iracema", "Dom Quixote", "Gabriela")
 
 # Acessando os dados no array
 puts livros[1] # irá acessar o livro Dom Quixote
+puts livros[1..3] # irá acessar o intervalo de 1 a 3
 puts livros.first # acessa o primeiro livro da lista
 puts livros.last # acessa o último livro
 puts livros.length # mostra o tamanho do array
